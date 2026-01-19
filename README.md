@@ -38,7 +38,7 @@ Here are some ideas to get you started:
 
 ---
 
-### 🛠️ Languages & Tools:
+
 ## 🛠️ Languages & Tools:
 
 <p align="left">
