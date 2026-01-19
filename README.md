@@ -1,4 +1,3 @@
-## Hi there 👋
 
 <!--
 **aman-pathak1/aman-pathak1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
