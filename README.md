@@ -21,20 +21,53 @@ Here are some ideas to get you started:
 
 ---
 
-### 🌐 Connect with me:
-<p>
-  <a href="[https://linkedin.com/in/yourid](https://www.linkedin.com/in/aman-pathak-393553322/)">
+
+## 🌐 Connect with me:
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/aman-pathak-393553322/" target="_blank">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-  <a href="[https://twitter.com/yourid](https://x.com/AmanPathak90)">
+  <a href="https://x.com/AmanPathak90" target="_blank">
     <img src="https://skillicons.dev/icons?i=twitter" />
+  </a>
+  <a href="https://www.instagram.com/aaman_ppathak/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram" />
   </a>
 </p>
 
 ---
 
 ### 🛠️ Languages & Tools:
-<p>
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,html,css,js,git,github,mysql" />
+## 🛠️ Languages & Tools:
+
+<p align="left">
+  <a href="https://en.cppreference.com/w/c" target="_blank">
+    <img src="https://skillicons.dev/icons?i=c" />
+  </a>
+  <a href="https://isocpp.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=cpp" />
+  </a>
+  <a href="https://www.python.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=python" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://skillicons.dev/icons?i=html" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img src="https://skillicons.dev/icons?i=css" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://skillicons.dev/icons?i=js" />
+  </a>
+  <a href="https://git-scm.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=git" />
+  </a>
+  <a href="https://github.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+  <a href="https://www.mysql.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=mysql" />
+  </a>
 </p>
 
