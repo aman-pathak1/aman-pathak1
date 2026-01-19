@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Aman</h1>
 <h3 align="center">A Learner</h3>
 
-- 🌱 I’m currently learning Machine Learning**
+- 🌱 **I’m currently learning Machine Learning**
 - 📫 How to reach me: **0aamanpathak@gmail.com**
 
 ---
@@ -57,6 +57,8 @@ Here are some ideas to get you started:
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
     <img src="https://skillicons.dev/icons?i=css" />
   </a>
+  <br>
+  
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
     <img src="https://skillicons.dev/icons?i=js" />
   </a>
