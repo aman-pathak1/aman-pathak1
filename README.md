@@ -16,17 +16,17 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Aman</h1>
 <h3 align="center">A Learner</h3>
 
-- 🌱 I’m currently learning **C, C++ & Machine Learning**
-- 📫 How to reach me: **aman@gmail.com**
+- 🌱 I’m currently learning Machine Learning**
+- 📫 How to reach me: **0aamanpathak@gmail.com**
 
 ---
 
 ### 🌐 Connect with me:
 <p>
-  <a href="https://linkedin.com/in/yourid">
+  <a href="[https://linkedin.com/in/yourid](https://www.linkedin.com/in/aman-pathak-393553322/)">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-  <a href="https://twitter.com/yourid">
+  <a href="[https://twitter.com/yourid](https://x.com/AmanPathak90)">
     <img src="https://skillicons.dev/icons?i=twitter" />
   </a>
 </p>
