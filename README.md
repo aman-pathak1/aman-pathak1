@@ -1,13 +1,12 @@
-
 <!--
 **aman-pathak1/aman-pathak1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 🔭 I'm currently working on ...
+- 🌱 I'm currently learning ...
+- 👯 I'm looking to collaborate on ...
+- 🤔 I'm looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
@@ -16,7 +15,11 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Aman</h1>
 <h3 align="center">A Learner</h3>
 
-- 🌱 **I’m currently learning Machine Learning**
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aman-pathak1&label=Profile%20views&color=0e75b6&style=flat" alt="aman-pathak1" />
+</p>
+
+- 🌱 **I'm currently learning Machine Learning**
 - 📫 How to reach me: [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
 
 
@@ -78,4 +81,28 @@ Here are some ideas to get you started:
   <a href="https://www.mysql.com/" target="_blank">
     <img src="https://skillicons.dev/icons?i=mysql" />
   </a>
+</p>
+
+---
+
+## 📊 GitHub Stats:
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aman-pathak1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aman-pathak1&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman-pathak1&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies:
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aman-pathak1&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" />
 </p>
