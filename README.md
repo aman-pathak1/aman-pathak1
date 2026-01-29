@@ -1,13 +1,12 @@
-
 <!--
 **aman-pathak1/aman-pathak1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 🔭 I'm currently working on ...
+- 🌱 I'm currently learning ...
+- 👯 I'm looking to collaborate on ...
+- 🤔 I'm looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
@@ -16,9 +15,19 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Aman</h1>
 <h3 align="center">A Learner</h3>
 
-- 🌱 **I’m currently learning Machine Learning**
+- 🌱 **I'm currently learning Machine Learning**
 - 📫 How to reach me: [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
 
+## 🚀 Projects
+
+### [ShopHub - E-commerce Website](./ecommerce-website)
+A modern, responsive e-commerce website featuring:
+- Product catalog with multiple categories
+- Shopping cart functionality
+- Search and filter capabilities
+- Responsive design for all devices
+
+[View Project →](./ecommerce-website)
 
 ---
 
