@@ -15,7 +15,7 @@ const products = [
         category: "electronics",
         price: 199.99,
         description: "Fitness tracking smart watch with heart rate monitor and GPS.",
-        icon: "fa-clock",
+        icon: "fa-watch",
         rating: 4.8
     },
     {

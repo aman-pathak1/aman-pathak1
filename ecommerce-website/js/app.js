@@ -327,21 +327,31 @@ function removeFromCart(productId) {
 
 // Save cart to localStorage
 function saveCartToStorage() {
-    localStorage.setItem('shophub-cart', JSON.stringify(cart));
+    try {
+        localStorage.setItem('shophub-cart', JSON.stringify(cart));
+    } catch (e) {
+        console.error('Failed to save cart to localStorage:', e);
+    }
 }
 
 // Load cart from localStorage
 function loadCartFromStorage() {
-    const savedCart = localStorage.getItem('shophub-cart');
-    if (savedCart) {
-        cart = JSON.parse(savedCart);
-        updateCart();
+    try {
+        const savedCart = localStorage.getItem('shophub-cart');
+        if (savedCart) {
+            cart = JSON.parse(savedCart);
+            updateCart();
+        }
+    } catch (e) {
+        console.error('Failed to load cart from localStorage:', e);
+        cart = [];
     }
 }
 
 // Show notification
 function showNotification(message) {
     const notification = document.createElement('div');
+    notification.className = 'notification-toast';
     notification.style.cssText = `
         position: fixed;
         top: 100px;
@@ -362,30 +372,3 @@ function showNotification(message) {
         setTimeout(() => notification.remove(), 300);
     }, 2000);
 }
-
-// Add animation keyframes
-const style = document.createElement('style');
-style.textContent = `
-    @keyframes slideInRight {
-        from {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        to {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
-    
-    @keyframes slideOutRight {
-        from {
-            transform: translateX(0);
-            opacity: 1;
-        }
-        to {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-    }
-`;
-document.head.appendChild(style);
