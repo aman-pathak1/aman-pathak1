@@ -22,30 +22,50 @@ A modern, responsive e-commerce website built with HTML, CSS, and JavaScript.
 
 ## Getting Started
 
+### 🚀 Quick Start
+
+**Want to run this right now?** Check out the [**QUICKSTART.md**](QUICKSTART.md) guide for detailed step-by-step instructions!
+
 ### Prerequisites
 
 No special prerequisites needed! This is a static website that runs in any modern web browser.
 
-### Installation
+### Running the Website
 
-1. Clone the repository:
+#### Method 1: Direct Browser Opening (Easiest)
+Simply double-click the `index.html` file - it will open directly in your browser!
+
+#### Method 2: Using Python (Recommended for best experience)
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/aman-pathak1/aman-pathak1.git
    cd aman-pathak1/ecommerce-website
    ```
 
-2. Open `index.html` in your web browser:
-   - Double-click the `index.html` file, or
-   - Use a local development server:
-     ```bash
-     # Using Python
-     python -m http.server 8000
-     
-     # Using Node.js (http-server)
-     npx http-server
-     ```
+2. **Start a local server:**
+   ```bash
+   # Using Python 3 (most common)
+   python3 -m http.server 8000
+   
+   # Or Python 2
+   python -m SimpleHTTPServer 8000
+   
+   # Or Node.js
+   npx http-server -p 8000
+   
+   # Or PHP
+   php -S localhost:8000
+   ```
 
-3. Navigate to `http://localhost:8000` in your browser
+3. **Open your browser:**
+   Navigate to `http://localhost:8000`
+
+#### Method 3: Using VS Code Live Server
+1. Install the "Live Server" extension
+2. Right-click `index.html` → "Open with Live Server"
+
+**Need more help?** See [**QUICKSTART.md**](QUICKSTART.md) for detailed instructions, troubleshooting, and multiple options!
 
 ## Usage
 
