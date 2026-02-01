@@ -265,25 +265,28 @@ if __name__ == '__main__':
 **1. Install Firebase**
 
 ```html
-<!-- Add to index.html -->
-<script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-firestore.js"></script>
+<!-- Add to index.html before closing </body> tag -->
+<script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.x.x/firebase-firestore-compat.js"></script>
 ```
 
 **2. Update JavaScript**
 
 ```javascript
 // Initialize Firebase
-import { initializeApp } from 'firebase/app';
-import { getFirestore, collection, getDocs } from 'firebase/firestore';
+const firebaseConfig = {
+    apiKey: "your-api-key",
+    authDomain: "your-project.firebaseapp.com",
+    projectId: "your-project-id"
+    // ... other config
+};
 
-const firebaseConfig = { /* your config */ };
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
 
 // Fetch products
 async function loadProducts() {
-    const querySnapshot = await getDocs(collection(db, "products"));
+    const querySnapshot = await db.collection("products").get();
     const products = querySnapshot.docs.map(doc => doc.data());
     // ... rest of the code
 }
