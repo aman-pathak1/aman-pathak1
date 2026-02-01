@@ -950,7 +950,6 @@ footer {
     font-size: 0.875rem;
     z-index: 10;
     box-shadow: 0 2px 8px rgba(255, 159, 0, 0.4);
-    animation: badgePulse 2s ease-in-out infinite;
 }
 
 @keyframes badgePulse {
@@ -959,6 +958,12 @@ footer {
     }
     50% {
         transform: scale(1.05);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .discount-badge {
+        animation: badgePulse 2s ease-in-out infinite;
     }
 }
 
@@ -1174,8 +1179,10 @@ footer {
 }
 
 /* Smooth Scroll Behavior */
-html {
-    scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 /* Loading Animation for Images */
@@ -1266,8 +1273,10 @@ html {
     }
 }
 
-.hero-content .btn-primary {
-    animation: floating 3s ease-in-out infinite;
+@media (prefers-reduced-motion: no-preference) {
+    .hero-content .btn-primary {
+        animation: floating 3s ease-in-out infinite;
+    }
 }
 
 /* Stagger Animation for About Cards */
