@@ -181,10 +181,6 @@ ecommerce-website/
 - [ ] Product image gallery
 - [ ] Size/color variants
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ## 👨‍💻 Developer
 
 **Aman Pathak**
