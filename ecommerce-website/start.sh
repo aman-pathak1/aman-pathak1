@@ -26,7 +26,7 @@ fi
 
 # Initialize database if needed
 if [ ! -f "database.sqlite" ]; then
-    echo "🗄️  Initializing database..."
+    echo "🗄️  Initializing database (this may take a moment)..."
     npm run init-db
 fi
 

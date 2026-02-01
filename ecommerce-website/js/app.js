@@ -1,6 +1,12 @@
 // Shopping Cart
 let cart = [];
 
+// Helper function for fallback image URL
+// Note: Used in onerror handlers within template strings below
+function getFallbackImageUrl(productName) {
+    return `https://via.placeholder.com/500x300?text=${encodeURIComponent(productName)}`;
+}
+
 // Initialize the app
 document.addEventListener('DOMContentLoaded', function() {
     loadProducts();
