@@ -6,7 +6,55 @@ document.addEventListener('DOMContentLoaded', function() {
     loadProducts();
     setupEventListeners();
     loadCartFromStorage();
+    initAnimations();
 });
+
+// Initialize GSAP animations
+function initAnimations() {
+    // Register ScrollTrigger plugin
+    if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Animate hero section
+        gsap.from('.hero-content h1', {
+            duration: 1,
+            y: 50,
+            opacity: 0,
+            ease: 'power3.out'
+        });
+
+        gsap.from('.hero-content p', {
+            duration: 1,
+            y: 30,
+            opacity: 0,
+            delay: 0.3,
+            ease: 'power3.out'
+        });
+
+        gsap.from('.hero-content .btn-primary', {
+            duration: 1,
+            scale: 0,
+            opacity: 0,
+            delay: 0.6,
+            ease: 'back.out(1.7)'
+        });
+
+        // Animate sections on scroll
+        gsap.utils.toArray('.categories, .products-section, .about-section, .contact-section').forEach(section => {
+            gsap.from(section.querySelector('h2'), {
+                scrollTrigger: {
+                    trigger: section,
+                    start: 'top 80%',
+                    toggleActions: 'play none none none'
+                },
+                duration: 0.8,
+                y: 50,
+                opacity: 0,
+                ease: 'power2.out'
+            });
+        });
+    }
+}
 
 // Load products into the grid
 function loadProducts(filter = 'all') {
@@ -18,7 +66,7 @@ function loadProducts(filter = 'all') {
     productsGrid.innerHTML = filteredProducts.map(product => `
         <div class="product-card" data-id="${product.id}">
             <div class="product-image">
-                <i class="fas ${product.icon}"></i>
+                <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/500x300?text=${encodeURIComponent(product.name)}'">
             </div>
             <div class="product-info">
                 <div class="product-category">${product.category}</div>
@@ -173,7 +221,7 @@ function filterProductsBySearch(searchTerm) {
     productsGrid.innerHTML = filteredProducts.map(product => `
         <div class="product-card" data-id="${product.id}">
             <div class="product-image">
-                <i class="fas ${product.icon}"></i>
+                <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='https://via.placeholder.com/500x300?text=${encodeURIComponent(product.name)}'">
             </div>
             <div class="product-info">
                 <div class="product-category">${product.category}</div>
@@ -210,7 +258,7 @@ function showProductDetail(productId) {
     const productDetail = document.getElementById('productDetail');
     productDetail.innerHTML = `
         <div class="product-detail-image">
-            <i class="fas ${product.icon}"></i>
+            <img src="${product.image}" alt="${product.name}" onerror="this.src='https://via.placeholder.com/500x300?text=${encodeURIComponent(product.name)}'">
         </div>
         <div class="product-detail-info">
             <div class="product-detail-category">${product.category}</div>
@@ -256,8 +304,13 @@ function addToCart(productId) {
 // Update cart display
 function updateCart() {
     const cartCount = document.getElementById('cartCount');
+    const cartIcon = document.getElementById('cartIcon');
     const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
     cartCount.textContent = totalItems;
+    
+    // Add pulse animation
+    cartIcon.classList.add('pulse');
+    setTimeout(() => cartIcon.classList.remove('pulse'), 300);
 }
 
 // Render cart items
@@ -279,7 +332,7 @@ function renderCart() {
     cartItems.innerHTML = cart.map(item => `
         <div class="cart-item">
             <div class="cart-item-image">
-                <i class="fas ${item.icon}"></i>
+                <img src="${item.image}" alt="${item.name}" onerror="this.src='https://via.placeholder.com/80?text=Product'">
             </div>
             <div class="cart-item-info">
                 <div class="cart-item-name">${item.name}</div>
