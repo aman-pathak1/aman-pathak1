@@ -903,3 +903,427 @@ footer {
         opacity: 0;
     }
 }
+
+/* ===== ENHANCED STYLES FOR FLIPKART-STYLE PRODUCT CARDS ===== */
+
+/* Product Image Enhancements with Real Images */
+.product-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: var(--bg-light);
+    overflow: hidden;
+}
+
+.product-image-real {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image-real {
+    transform: scale(1.1);
+}
+
+.product-image-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: var(--primary-color);
+    background: var(--bg-light);
+}
+
+/* Discount Badge - Flipkart Style */
+.discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff9f00;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.875rem;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(255, 159, 0, 0.4);
+    animation: badgePulse 2s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.discount-badge-large {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #ff9f00;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1.125rem;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(255, 159, 0, 0.4);
+}
+
+/* Enhanced Product Price Display */
+.product-price-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.product-original-price {
+    font-size: 0.875rem;
+    color: var(--text-light);
+    text-decoration: line-through;
+}
+
+/* Product Detail Modal Enhancements */
+.product-detail-image-wrapper {
+    position: relative;
+    background: var(--bg-light);
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.product-detail-image-real {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-detail-image-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8rem;
+    color: var(--primary-color);
+    min-height: 400px;
+}
+
+.product-detail-price-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.product-detail-original-price {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    text-decoration: line-through;
+}
+
+.product-detail-savings {
+    color: var(--success-color);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Cart Item Image Enhancements */
+.cart-item-image-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: var(--bg-white);
+}
+
+.cart-item-image-real {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-item-image-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    background: var(--bg-white);
+}
+
+/* ===== HIGH-QUALITY ANIMATIONS ===== */
+
+/* Fade In Animation for Products */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product-card {
+    animation: fadeInUp 0.6s ease-out;
+    animation-fill-mode: both;
+}
+
+.product-card:nth-child(1) { animation-delay: 0.05s; }
+.product-card:nth-child(2) { animation-delay: 0.1s; }
+.product-card:nth-child(3) { animation-delay: 0.15s; }
+.product-card:nth-child(4) { animation-delay: 0.2s; }
+.product-card:nth-child(5) { animation-delay: 0.25s; }
+.product-card:nth-child(6) { animation-delay: 0.3s; }
+.product-card:nth-child(7) { animation-delay: 0.35s; }
+.product-card:nth-child(8) { animation-delay: 0.4s; }
+
+/* Enhanced Hover Effects - Flipkart Style */
+.product-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Add to Cart Button Enhanced Animation */
+.add-to-cart {
+    position: relative;
+    overflow: hidden;
+}
+
+.add-to-cart::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+.add-to-cart:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* Category Card Animation */
+.category-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.category-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.category-card i {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.category-card:hover i {
+    transform: rotate(360deg) scale(1.2);
+    color: var(--secondary-color);
+}
+
+/* Shimmer Effect on Product Images */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.product-image-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    transition: left 0.5s;
+}
+
+.product-card:hover .product-image-wrapper::before {
+    left: 100%;
+}
+
+/* Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Loading Animation for Images */
+@keyframes imageLoad {
+    from {
+        opacity: 0;
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.product-image-real,
+.product-detail-image-real,
+.cart-item-image-real {
+    animation: imageLoad 0.5s ease-out;
+}
+
+/* Pulse Animation for New Badge */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.9;
+        transform: scale(1.05);
+    }
+}
+
+/* Enhanced Button Interactions */
+.btn-primary {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-primary::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%);
+    transition: width 0.5s, height 0.5s;
+}
+
+.btn-primary:active::after {
+    width: 300px;
+    height: 300px;
+}
+
+/* Filter Button Smooth Transition */
+.filter-btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.filter-btn::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transform: translateX(-50%);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-btn:hover::before,
+.filter-btn.active::before {
+    width: 80%;
+}
+
+/* Floating Animation for Hero Button */
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.hero-content .btn-primary {
+    animation: floating 3s ease-in-out infinite;
+}
+
+/* Stagger Animation for About Cards */
+.about-card {
+    animation: fadeInUp 0.8s ease-out;
+    animation-fill-mode: both;
+}
+
+.about-card:nth-child(1) { animation-delay: 0.1s; }
+.about-card:nth-child(2) { animation-delay: 0.2s; }
+.about-card:nth-child(3) { animation-delay: 0.3s; }
+.about-card:nth-child(4) { animation-delay: 0.4s; }
+
+.about-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Enhanced Modal Animations */
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95) translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.product-modal-content {
+    animation: modalFadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth Cart Count Update */
+.cart-count {
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cart-icon:hover .cart-count {
+    transform: scale(1.2);
+}
+
+/* Product Rating Stars Animation */
+.product-rating i {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover .product-rating i {
+    transform: scale(1.1);
+}
+
+.product-rating i:nth-child(1) { transition-delay: 0s; }
+.product-rating i:nth-child(2) { transition-delay: 0.05s; }
+.product-rating i:nth-child(3) { transition-delay: 0.1s; }
+.product-rating i:nth-child(4) { transition-delay: 0.15s; }
+.product-rating i:nth-child(5) { transition-delay: 0.2s; }
