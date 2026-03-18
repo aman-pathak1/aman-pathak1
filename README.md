@@ -20,15 +20,18 @@ Here are some ideas to get you started:
 
 ## 🚀 Projects
 
-### [ShopHub - E-commerce Website](./ecommerce-website)
-A modern, responsive e-commerce website featuring:
-- Product catalog with multiple categories
-- Shopping cart functionality
-- Search and filter capabilities
-- Responsive design for all devices
+### 🚀 ModelForge AutoML
 
-[View Project →](./ecommerce-website)
+A production-ready AutoML platform that automates the complete machine learning workflow — from data preprocessing and feature engineering to model training, tuning, and model export.
 
+✨ Key Highlights:
+- Automated ML pipeline  
+- Multi-model training (CV-based)  
+- Hyperparameter tuning  
+- Feature importance analysis  
+- Model Export (Download)  
+
+🔗 [View Project](https://github.com/aman-pathak1/ModelForge-AutoML)
 ---
 
 
