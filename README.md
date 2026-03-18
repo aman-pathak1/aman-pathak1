@@ -18,9 +18,9 @@ Here are some ideas to get you started:
 - 🌱 **I'm currently learning Machine Learning**
 - 📫 How to reach me: [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
 
-## 🚀 Projects
+# 🚀 Projects
 
-### 🚀 ModelForge AutoML
+## ModelForge AutoML
 
 A production-ready AutoML platform that automates the complete machine learning workflow — from data preprocessing and feature engineering to model training, tuning, and model export.
 
