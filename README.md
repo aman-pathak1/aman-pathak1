@@ -31,7 +31,7 @@ A production-ready AutoML platform that automates the complete machine learning 
 - Feature importance analysis  
 - Model Export (Download)  
 
-🔗 [View Project](https://github.com/aman-pathak1/ModelForge-AutoML)
+🔗 [View Project](https://github.com/aman-pathak1/ModelForge-AI)
 ---
 
 
