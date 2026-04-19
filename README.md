@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 <h1 align="center">Hi 👋, I'm Aman</h1>
 <h3 align="center">A Learner</h3>
 
-- 🌱 **I'm currently learning Machine Learning**
+- 🌱 **I'm currently learning Natural Language Processing (NLP)**
 - 📫 How to reach me: [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
 
 # 🚀 Projects
