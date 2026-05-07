@@ -1,41 +1,54 @@
-# ShopHub - E-commerce Website
+# ShopHub - Production-Ready E-commerce Website
 
-A modern, responsive e-commerce website built with HTML, CSS, and JavaScript.
+A modern, full-stack e-commerce platform with real product images, backend API, database, user authentication, and professional animations.
 
-## Features
+![ShopHub](https://img.shields.io/badge/Status-Production%20Ready-success)
+![Node.js](https://img.shields.io/badge/Node.js-v14%2B-green)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-- 🛍️ **Product Catalog**: Browse through various categories including Electronics, Clothing, Books, and Home & Living
-- 🔍 **Search Functionality**: Easily search for products by name, description, or category
-- 🛒 **Shopping Cart**: Add products to cart with quantity management
-- 📱 **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- 💳 **Checkout Flow**: Simple checkout process for completing purchases
-- ⭐ **Product Ratings**: View product ratings and reviews
-- 🎨 **Modern UI**: Clean and intuitive user interface with smooth animations
+## 🌟 Features
 
-## Technologies Used
+### Frontend
+- 🖼️ **Real Product Images**: High-quality images from Unsplash API
+- 🎨 **Modern Animations**: GSAP animations, hover effects, and smooth transitions
+- 🛍️ **Product Catalog**: Browse Electronics, Clothing, Books, and Home & Living
+- 🔍 **Search & Filter**: Advanced search and category filtering
+- 🛒 **Shopping Cart**: Full cart management with quantity controls
+- 📱 **Fully Responsive**: Perfect on desktop, tablet, and mobile devices
+- ⭐ **Product Ratings**: Visual star ratings for each product
+- 🔐 **User Authentication**: Login/Signup with JWT tokens
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+### Backend
+- 🗄️ **Database**: SQLite database with proper relational schema
+- 🔒 **Security**: Password hashing, SQL injection prevention, rate limiting
+- 📦 **REST API**: Complete CRUD API for products, cart, orders
+- ✅ **Input Validation**: Comprehensive validation with express-validator
+- 🛡️ **Security Headers**: Helmet, CORS configuration
+- 📝 **Detailed Logging**: Request logging and error handling
+
+## 🛠️ Technologies
+
+### Frontend
+- HTML5, CSS3, JavaScript (Vanilla)
+- GSAP for animations
 - Font Awesome Icons
-- LocalStorage for cart persistence
+- Unsplash API for images
 
-## Getting Started
+### Backend
+- Node.js & Express.js
+- SQLite3 database
+- JWT authentication
+- bcryptjs for passwords
+- express-validator
+- Helmet & CORS
 
-### 🚀 Quick Start
-
-**Want to run this right now?** Check out the [**QUICKSTART.md**](QUICKSTART.md) guide for detailed step-by-step instructions!
+## 🚀 Quick Start
 
 ### Prerequisites
+- Node.js v14+ and npm
+- Modern web browser
 
-No special prerequisites needed! This is a static website that runs in any modern web browser.
-
-### Running the Website
-
-#### Method 1: Direct Browser Opening (Easiest)
-Simply double-click the `index.html` file - it will open directly in your browser!
-
-#### Method 2: Using Python (Recommended for best experience)
+### Installation
 
 1. **Clone the repository:**
    ```bash
@@ -43,100 +56,182 @@ Simply double-click the `index.html` file - it will open directly in your browse
    cd aman-pathak1/ecommerce-website
    ```
 
-2. **Start a local server:**
+2. **Use the startup script:**
    ```bash
-   # Using Python 3 (most common)
-   python3 -m http.server 8000
-   
-   # Or Python 2
-   python -m SimpleHTTPServer 8000
-   
-   # Or Node.js
-   npx http-server -p 8000
-   
-   # Or PHP
-   php -S localhost:8000
+   chmod +x start.sh
+   ./start.sh
    ```
 
-3. **Open your browser:**
-   Navigate to `http://localhost:8000`
+3. **Start frontend** (new terminal):
+   ```bash
+   python3 -m http.server 8000
+   # Or: npx http-server -p 8000
+   ```
 
-#### Method 3: Using VS Code Live Server
-1. Install the "Live Server" extension
-2. Right-click `index.html` → "Open with Live Server"
+4. **Open browser:**
+   Visit `http://localhost:8000`
 
-**Need more help?** See [**QUICKSTART.md**](QUICKSTART.md) for detailed instructions, troubleshooting, and multiple options!
+### Manual Setup
 
-## Usage
+#### Backend
+```bash
+cd backend
+npm install
+npm run init-db
+npm start
+```
 
-### Shopping
+Backend runs on `http://localhost:3000`
 
-1. Browse products on the homepage
-2. Click on category cards to filter products
-3. Use the search bar to find specific products
-4. Click on a product card to view details
-5. Click "Add to Cart" to add items to your shopping cart
+#### Frontend
+```bash
+# From ecommerce-website directory
+python3 -m http.server 8000
+```
 
-### Cart Management
+Frontend runs on `http://localhost:8000`
 
-1. Click the cart icon in the header to view your cart
-2. Adjust quantities using the + and - buttons
-3. Remove items using the trash icon
-4. Click "Proceed to Checkout" to complete your purchase
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 ecommerce-website/
-│
-├── index.html           # Main HTML file
+├── index.html              # Main page
+├── start.sh               # Quick startup script
 ├── css/
-│   └── style.css       # Stylesheet
+│   └── style.css          # Animations & styles
 ├── js/
-│   ├── products.js     # Product data
-│   └── app.js          # Main application logic
-├── images/             # Product images (optional)
-└── README.md           # This file
+│   ├── api.js            # API service layer
+│   ├── products.js       # Product data
+│   └── app.js            # Main logic
+└── backend/
+    ├── server.js         # Express server
+    ├── package.json
+    ├── .env             # Configuration
+    └── src/
+        ├── config/
+        │   └── database.js
+        ├── controllers/
+        │   ├── authController.js
+        │   ├── productController.js
+        │   ├── cartController.js
+        │   └── orderController.js
+        ├── middleware/
+        │   ├── auth.js
+        │   └── validation.js
+        └── routes/
+            ├── authRoutes.js
+            ├── productRoutes.js
+            ├── cartRoutes.js
+            └── orderRoutes.js
 ```
 
-## Features Breakdown
+## 🔐 Security Features
 
-### Product Categories
-- Electronics (headphones, smart watches, laptops, etc.)
-- Clothing (t-shirts, jeans, shoes, jackets)
-- Books (programming, design, machine learning)
-- Home & Living (coffee makers, lamps, pillows, clocks)
+- ✅ **Password Hashing**: bcryptjs with salt rounds
+- ✅ **JWT Authentication**: Secure token-based auth
+- ✅ **SQL Injection Prevention**: Parameterized queries only
+- ✅ **Input Validation**: All inputs validated & sanitized
+- ✅ **Rate Limiting**: 100 requests per 15 minutes
+- ✅ **CORS**: Configured for specific origins
+- ✅ **Helmet**: Security headers enabled
+- ✅ **Error Handling**: Never expose sensitive data
 
-### Interactive Elements
-- Smooth scrolling navigation
-- Dynamic product filtering
-- Real-time search
-- Shopping cart with persistence
-- Product detail modals
-- Quantity management
-- Responsive mobile menu
+## 🎨 Animations & UI
 
-## Future Enhancements
+### Animations
+- Page load fade-in effects
+- Product card zoom on hover
+- Shimmer effects
+- GSAP scroll animations
+- Smooth state transitions
+- Pulse effects on cart updates
 
-- [ ] User authentication and accounts
-- [ ] Backend integration for real product data
-- [ ] Payment gateway integration
-- [ ] Product reviews and ratings system
-- [ ] Wishlist functionality
-- [ ] Order history and tracking
-- [ ] Advanced filtering (price range, ratings, etc.)
-- [ ] Product image gallery
+### Responsive Design
+- Mobile-first approach
+- Tablet & desktop breakpoints
+- Touch-friendly controls
+- Lazy loading images
 
-## Contributing
+## 📚 API Endpoints
 
-Feel free to fork this project and submit pull requests for any improvements!
+### Authentication
+- `POST /api/auth/register` - Register user
+- `POST /api/auth/login` - Login user
+- `GET /api/auth/profile` - Get profile (auth required)
 
-## License
+### Products
+- `GET /api/products` - List all products
+- `GET /api/products/:id` - Get product details
+- `GET /api/products/category/:category` - Filter by category
+- `POST /api/products` - Create product
+- `PUT /api/products/:id` - Update product
+- `DELETE /api/products/:id` - Delete product
 
-This project is open source and available under the MIT License.
+### Cart (Authentication Required)
+- `GET /api/cart` - Get user cart
+- `POST /api/cart` - Add item to cart
+- `PUT /api/cart/:cartId` - Update quantity
+- `DELETE /api/cart/:cartId` - Remove item
+- `DELETE /api/cart` - Clear cart
 
-## Contact
+### Orders (Authentication Required)
+- `POST /api/orders` - Create order from cart
+- `GET /api/orders` - Get user orders
+- `GET /api/orders/:orderId` - Get order details
+- `PATCH /api/orders/:orderId/status` - Update status
 
-Aman Pathak - [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
+## 🧪 Testing
 
-Project Link: [https://github.com/aman-pathak1/aman-pathak1](https://github.com/aman-pathak1/aman-pathak1)
+### Register User
+```bash
+curl -X POST http://localhost:3000/api/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{"email":"user@example.com","password":"pass123","name":"John Doe"}'
+```
+
+### Login
+```bash
+curl -X POST http://localhost:3000/api/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"user@example.com","password":"pass123"}'
+```
+
+### Get Products
+```bash
+curl http://localhost:3000/api/products
+```
+
+## 🎯 Production Deployment
+
+1. Set environment variables:
+   - `NODE_ENV=production`
+   - `JWT_SECRET=<strong-secret>`
+   - `CORS_ORIGIN=<your-domain>`
+
+2. Use process manager:
+   ```bash
+   pm2 start backend/server.js --name shophub-api
+   ```
+
+3. Use nginx for frontend static files
+
+4. Enable HTTPS with Let's Encrypt
+
+## 📄 License
+
+MIT License - see LICENSE file
+
+## 👤 Author
+
+**Aman Pathak**
+- LinkedIn: [Aman Pathak](https://www.linkedin.com/in/aman-pathak-393553322/)
+- Twitter: [@AmanPathak90](https://x.com/AmanPathak90)
+- Instagram: [@aaman_ppathak](https://www.instagram.com/aaman_ppathak/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## ⭐ Show Your Support
+
+Give a ⭐️ if you like this project!
