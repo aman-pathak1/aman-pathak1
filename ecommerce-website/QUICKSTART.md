@@ -206,6 +206,47 @@ Try these features to confirm everything works:
 
 ---
 
+## 💾 Where Is My Database?
+
+**Important:** This website doesn't use a traditional database!
+
+### Data Storage Explained:
+
+1. **Product Data** → Stored in `js/products.js`
+   - All products (name, price, description) are in a JavaScript array
+   - To add/edit products, edit this file directly
+   - Changes require refreshing the page
+
+2. **Shopping Cart** → Stored in Browser's LocalStorage
+   - Your cart is saved automatically in your browser
+   - Persists between page refreshes
+   - Cleared when you clear browser cache
+
+### How to View Your Data:
+
+**Products:**
+```bash
+# Open this file to see all products
+cat js/products.js
+# or open it in any text editor
+```
+
+**Shopping Cart (in Browser):**
+1. Press F12 to open DevTools
+2. Go to "Application" tab
+3. Look under "Local Storage" → your domain
+4. Find the key `shophub-cart`
+
+### Need a Real Database?
+
+This is a static frontend-only demo. For a real database:
+- You'll need a backend server (Node.js, Python, etc.)
+- Connect to MySQL, MongoDB, PostgreSQL, etc.
+- Create APIs to fetch/save data
+- See the main [README.md](README.md) "Database / Data Storage" section
+
+---
+
 ## 💡 Pro Tips
 
 - **Auto-refresh:** Use VS Code's Live Server for automatic page refresh when you edit files
