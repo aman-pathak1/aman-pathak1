@@ -17,8 +17,12 @@ function loadProducts(filter = 'all') {
     
     productsGrid.innerHTML = filteredProducts.map(product => `
         <div class="product-card" data-id="${product.id}">
-            <div class="product-image">
-                <i class="fas ${product.icon}"></i>
+            <div class="product-image-wrapper">
+                ${product.discount ? `<div class="discount-badge">${product.discount}% OFF</div>` : ''}
+                <img src="${product.image}" alt="${product.name}" class="product-image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="product-image-fallback" style="display: none;">
+                    <i class="fas ${product.icon}"></i>
+                </div>
             </div>
             <div class="product-info">
                 <div class="product-category">${product.category}</div>
@@ -29,7 +33,10 @@ function loadProducts(filter = 'all') {
                 <div class="product-name">${product.name}</div>
                 <div class="product-description">${product.description}</div>
                 <div class="product-footer">
-                    <div class="product-price">$${product.price.toFixed(2)}</div>
+                    <div class="product-price-wrapper">
+                        <div class="product-price">$${product.price.toFixed(2)}</div>
+                        ${product.originalPrice ? `<div class="product-original-price">$${product.originalPrice.toFixed(2)}</div>` : ''}
+                    </div>
                     <button class="add-to-cart" onclick="addToCart(${product.id}); event.stopPropagation();">
                         <i class="fas fa-cart-plus"></i>
                     </button>
@@ -172,8 +179,12 @@ function filterProductsBySearch(searchTerm) {
 
     productsGrid.innerHTML = filteredProducts.map(product => `
         <div class="product-card" data-id="${product.id}">
-            <div class="product-image">
-                <i class="fas ${product.icon}"></i>
+            <div class="product-image-wrapper">
+                ${product.discount ? `<div class="discount-badge">${product.discount}% OFF</div>` : ''}
+                <img src="${product.image}" alt="${product.name}" class="product-image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="product-image-fallback" style="display: none;">
+                    <i class="fas ${product.icon}"></i>
+                </div>
             </div>
             <div class="product-info">
                 <div class="product-category">${product.category}</div>
@@ -184,7 +195,10 @@ function filterProductsBySearch(searchTerm) {
                 <div class="product-name">${product.name}</div>
                 <div class="product-description">${product.description}</div>
                 <div class="product-footer">
-                    <div class="product-price">$${product.price.toFixed(2)}</div>
+                    <div class="product-price-wrapper">
+                        <div class="product-price">$${product.price.toFixed(2)}</div>
+                        ${product.originalPrice ? `<div class="product-original-price">$${product.originalPrice.toFixed(2)}</div>` : ''}
+                    </div>
                     <button class="add-to-cart" onclick="addToCart(${product.id}); event.stopPropagation();">
                         <i class="fas fa-cart-plus"></i>
                     </button>
@@ -209,8 +223,12 @@ function showProductDetail(productId) {
 
     const productDetail = document.getElementById('productDetail');
     productDetail.innerHTML = `
-        <div class="product-detail-image">
-            <i class="fas ${product.icon}"></i>
+        <div class="product-detail-image-wrapper">
+            ${product.discount ? `<div class="discount-badge-large">${product.discount}% OFF</div>` : ''}
+            <img src="${product.image}" alt="${product.name}" class="product-detail-image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="product-detail-image-fallback" style="display: none;">
+                <i class="fas ${product.icon}"></i>
+            </div>
         </div>
         <div class="product-detail-info">
             <div class="product-detail-category">${product.category}</div>
@@ -219,7 +237,11 @@ function showProductDetail(productId) {
                 ${generateStars(product.rating)}
                 <span style="color: var(--text-light);">(${product.rating} stars)</span>
             </div>
-            <div class="product-detail-price">$${product.price.toFixed(2)}</div>
+            <div class="product-detail-price-wrapper">
+                <div class="product-detail-price">$${product.price.toFixed(2)}</div>
+                ${product.originalPrice ? `<div class="product-detail-original-price">$${product.originalPrice.toFixed(2)}</div>` : ''}
+                ${product.discount ? `<div class="product-detail-savings">You save: $${(product.originalPrice - product.price).toFixed(2)}</div>` : ''}
+            </div>
             <p class="product-detail-description">${product.description}</p>
             <div class="product-detail-actions">
                 <button class="btn-primary" onclick="addToCart(${product.id}); showNotification('Added to cart!');">
@@ -278,8 +300,11 @@ function renderCart() {
 
     cartItems.innerHTML = cart.map(item => `
         <div class="cart-item">
-            <div class="cart-item-image">
-                <i class="fas ${item.icon}"></i>
+            <div class="cart-item-image-wrapper">
+                <img src="${item.image}" alt="${item.name}" class="cart-item-image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="cart-item-image-fallback" style="display: none;">
+                    <i class="fas ${item.icon}"></i>
+                </div>
             </div>
             <div class="cart-item-info">
                 <div class="cart-item-name">${item.name}</div>
