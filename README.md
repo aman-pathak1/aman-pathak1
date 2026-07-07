@@ -90,4 +90,16 @@ A production-ready AutoML platform that automates the complete machine learning 
   <a href="https://www.mysql.com/" target="_blank">
     <img src="https://skillicons.dev/icons?i=mysql" />
   </a>
+  <a href="https://www.tensorflow.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=tensorflow" />
+  </a>
+  <a href="https://pytorch.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=pytorch" />
+  </a>
+  <a href="https://scikit-learn.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=sklearn" />
+  </a>
+  <a href="https://opencv.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=opencv" />
+  </a>
 </p>
