@@ -10,81 +10,113 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
 <h1 align="center">Hi 👋, I'm Aman</h1>
+
 <h3 align="center">A Learner</h3>
+
 - 🌱 **I'm currently learning Natural Language Processing (NLP)**
 - 📫 How to reach me: [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
+
 # 🚀 Projects
+
 ## ModelForge AutoML
+
 A production-ready AutoML platform that automates the complete machine learning workflow — from data preprocessing and feature engineering to model training, tuning, and model export.
-✨ Key Highlights:
-- Automated ML pipeline  
-- Multi-model training (CV-based)  
-- Hyperparameter tuning  
-- Feature importance analysis  
-- Model Export (Download)  
-🔗 [View Project](https://github.com/aman-pathak1/ModelForge-Frontend)
+
+✨ **Key Highlights:**
+- Automated ML pipeline
+- Multi-model training (CV-based)
+- Hyperparameter tuning
+- Feature importance analysis
+- Model Export (Download)
+
+🔗 **View Project:** https://github.com/aman-pathak1/ModelForge-Frontend
+
 ---
+
 ## 🌐 Connect with me:
+
 <p align="left">
   <a href="https://www.linkedin.com/in/aman-pathak-393553322/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" />
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" title="LinkedIn"/>
   </a>
+
   <a href="https://x.com/AmanPathak90" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" />
+    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter (X)" title="Twitter (X)"/>
   </a>
+
   <a href="https://www.instagram.com/aaman_ppathak/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" />
+    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" title="Instagram"/>
   </a>
 </p>
+
 ---
+
 ## 🛠️ Languages & Tools:
+
 <p align="left">
+
   <a href="https://en.cppreference.com/w/c" target="_blank">
-    <img src="https://skillicons.dev/icons?i=c" />
+    <img src="https://skillicons.dev/icons?i=c" alt="C" title="C"/>
   </a>
+
   <a href="https://isocpp.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=cpp" />
+    <img src="https://skillicons.dev/icons?i=cpp" alt="C++" title="C++"/>
   </a>
+
   <a href="https://www.python.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=python" />
+    <img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python"/>
   </a>
+
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://skillicons.dev/icons?i=html" />
+    <img src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5"/>
   </a>
+
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://skillicons.dev/icons?i=css" />
+    <img src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3"/>
   </a>
+
   <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tailwind" />
+    <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS"/>
   </a>
 
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://skillicons.dev/icons?i=js" />
+    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" title="JavaScript"/>
   </a>
+
   <a href="https://react.dev/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=react" />
+    <img src="https://skillicons.dev/icons?i=react" alt="React" title="React"/>
   </a>
+
   <br>
+
   <a href="https://git-scm.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=git" />
+    <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git"/>
   </a>
+
   <a href="https://github.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" />
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub"/>
   </a>
+
   <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=mysql" />
+    <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL"/>
   </a>
+
   <a href="https://www.tensorflow.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tensorflow" />
+    <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" title="TensorFlow"/>
   </a>
+
   <a href="https://pytorch.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=pytorch" />
+    <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" title="PyTorch"/>
   </a>
+
   <a href="https://scikit-learn.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=sklearn" />
+    <img src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-learn" title="Scikit-learn"/>
   </a>
+
   <a href="https://opencv.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=opencv" />
+    <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV" title="OpenCV"/>
   </a>
+
 </p>
