@@ -1,5 +1,5 @@
 <!--
-**aman-pathak1/aman-pathak1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**aman-pathak1/aman-pathak1** is a ✨ _special_ ✨ repository because its README.md (this file) appears on your GitHub profile.
 Here are some ideas to get you started:
 - 🔭 I'm currently working on ...
 - 🌱 I'm currently learning ...
@@ -28,63 +28,63 @@ A production-ready AutoML platform that automates the complete machine learning 
 ## 🌐 Connect with me:
 <p align="left">
   <a href="https://www.linkedin.com/in/aman-pathak-393553322/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" title="LinkedIn" />
+    <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
   <a href="https://x.com/AmanPathak90" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" title="Twitter" />
+    <img src="https://skillicons.dev/icons?i=twitter" />
   </a>
   <a href="https://www.instagram.com/aaman_ppathak/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" title="Instagram" />
+    <img src="https://skillicons.dev/icons?i=instagram" />
   </a>
 </p>
 ---
 ## 🛠️ Languages & Tools:
 <p align="left">
   <a href="https://en.cppreference.com/w/c" target="_blank">
-    <img src="https://skillicons.dev/icons?i=c" title="C" />
+    <img src="https://skillicons.dev/icons?i=c" />
   </a>
   <a href="https://isocpp.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=cpp" title="C++" />
+    <img src="https://skillicons.dev/icons?i=cpp" />
   </a>
   <a href="https://www.python.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=python" title="Python" />
+    <img src="https://skillicons.dev/icons?i=python" />
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://skillicons.dev/icons?i=html" title="HTML" />
+    <img src="https://skillicons.dev/icons?i=html" />
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://skillicons.dev/icons?i=css" title="CSS" />
+    <img src="https://skillicons.dev/icons?i=css" />
   </a>
   <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tailwind" title="Tailwind CSS" />
+    <img src="https://skillicons.dev/icons?i=tailwind" />
   </a>
-  
+
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://skillicons.dev/icons?i=js" title="JavaScript" />
+    <img src="https://skillicons.dev/icons?i=js" />
   </a>
   <a href="https://react.dev/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=react" title="React" />
+    <img src="https://skillicons.dev/icons?i=react" />
   </a>
   <br>
   <a href="https://git-scm.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=git" title="Git" />
+    <img src="https://skillicons.dev/icons?i=git" />
   </a>
   <a href="https://github.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" title="GitHub" />
+    <img src="https://skillicons.dev/icons?i=github" />
   </a>
   <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=mysql" title="MySQL" />
+    <img src="https://skillicons.dev/icons?i=mysql" />
   </a>
   <a href="https://www.tensorflow.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tensorflow" title="TensorFlow" />
+    <img src="https://skillicons.dev/icons?i=tensorflow" />
   </a>
   <a href="https://pytorch.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=pytorch" title="PyTorch" />
+    <img src="https://skillicons.dev/icons?i=pytorch" />
   </a>
   <a href="https://scikit-learn.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=sklearn" title="scikit-learn" />
+    <img src="https://skillicons.dev/icons?i=sklearn" />
   </a>
   <a href="https://opencv.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=opencv" title="OpenCV" />
+    <img src="https://skillicons.dev/icons?i=opencv" />
   </a>
 </p>
