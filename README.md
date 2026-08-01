@@ -1,122 +1,100 @@
 <!--
 **aman-pathak1/aman-pathak1** is a ✨ _special_ ✨ repository because its README.md (this file) appears on your GitHub profile.
-Here are some ideas to get you started:
-- 🔭 I'm currently working on ...
-- 🌱 I'm currently learning ...
-- 👯 I'm looking to collaborate on ...
-- 🤔 I'm looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
 
-<h1 align="center">Hi 👋, I'm Aman</h1>
+<h1 align="center">Hi 👋, I'm Aman Pathak</h1>
+<h3 align="center">B.Tech CSE (ML Engineering) Student | Building real things, one repo at a time</h3>
 
-<h3 align="center">A Learner</h3>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gabrieltempass/gabrieltempass/master/press-any-key.gif" width="450"/>
+</p>
 
-- 🌱 **I'm currently learning Natural Language Processing (NLP)**
-- 📫 How to reach me: [0aamanpathak@gmail.com](mailto:0aamanpathak@gmail.com)
+<h2>🧑‍💻 About Me</h2>
 
-# 🚀 Projects
-
-## ModelForge AutoML
-
-A production-ready AutoML platform that automates the complete machine learning workflow — from data preprocessing and feature engineering to model training, tuning, and model export.
-
-✨ **Key Highlights:**
-- Automated ML pipeline
-- Multi-model training (CV-based)
-- Hyperparameter tuning
-- Feature importance analysis
-- Model Export (Download)
-
-🔗 **View Project:** https://github.com/aman-pathak1/ModelForge-Frontend
+- 🎓 B.Tech Computer Science (ML Engineering track) student at Jaypee University of Engineering and Technology, Guna
+- 💼 Technical Coordinator @ Bitwise Club
+- 🧪 Completed a Data Science internship @ Zidio Development Pvt. Ltd. — built **RetailPulse**, a retail analytics pipeline (RFM + K-Means segmentation, Prophet/LSTM demand forecasting)
+- 🌱 Currently learning **NLP** and exploring semantic search (SBERT/FAISS)
+- 💻 500+ problems solved on LeetCode (C++)
+- 📫 Reach me: **0aamanpathak@gmail.com**
 
 ---
 
-## 🌐 Connect with me:
+<h2>🚀 Projects</h2>
+
+### 🔍 Duplicate Question Detection
+Semantic similarity pipeline to detect duplicate questions at scale.
+- SBERT embeddings + FAISS indexing over 533K unique questions (768-dim)
+- FastAPI backend with multiple search endpoints, Next.js frontend with 3 search modes
+- Started from a TF-IDF baseline (~75% accuracy, 0.84 ROC-AUC) before moving to embeddings
+
+🔗 **Repo:** https://github.com/aman-pathak1
+
+### 🤖 ModelForge AI (AutoML Platform)
+Production-style AutoML platform automating the ML workflow end-to-end.
+- Automated preprocessing, feature engineering, multi-model training (CV-based), hyperparameter tuning
+- React + FastAPI + Docker, deployed on Vercel and Hugging Face Spaces
+
+🔗 **Repo:** https://github.com/aman-pathak1/ModelForge-Frontend
+
+### 📊 RetailPulse
+Retail analytics dashboard built from the internship project.
+- Customer segmentation (RFM + K-Means), demand forecasting (Prophet + LSTM), ABC inventory optimization
+- Streamlit Cloud deployment, 4-page dashboard with Plotly charts
+
+🔗 **Repo:** https://github.com/aman-pathak1
+
+---
+
+<h2>🛠️ Languages & Tools</h2>
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=c" alt="C"/>
+  <img src="https://skillicons.dev/icons?i=cpp" alt="C++"/>
+  <img src="https://skillicons.dev/icons?i=python" alt="Python"/>
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript"/>
+  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript"/>
+  <img src="https://skillicons.dev/icons?i=html" alt="HTML5"/>
+  <img src="https://skillicons.dev/icons?i=css" alt="CSS3"/>
+  <img src="https://skillicons.dev/icons?i=react" alt="React"/>
+  <img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js"/>
+  <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind"/>
+  <br>
+  <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI"/>
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js"/>
+  <img src="https://skillicons.dev/icons?i=express" alt="Express"/>
+  <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch"/>
+  <img src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-learn"/>
+  <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV"/>
+  <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"/>
+  <img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL"/>
+  <img src="https://skillicons.dev/icons?i=docker" alt="Docker"/>
+  <img src="https://skillicons.dev/icons?i=git" alt="Git"/>
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub"/>
+</p>
+
+---
+
+<h2>📈 GitHub Stats</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aman-pathak1&show_icons=true&theme=dark" alt="Aman's GitHub stats"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aman-pathak1&theme=dark" alt="GitHub Streak"/>
+</p>
+
+---
+
+<h2>🌐 Connect with me</h2>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/aman-pathak-393553322/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" title="LinkedIn"/>
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn"/>
   </a>
-
   <a href="https://x.com/AmanPathak90" target="_blank">
-    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter (X)" title="Twitter (X)"/>
-  </a>
-
-  <a href="https://www.instagram.com/aaman_ppathak/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" title="Instagram"/>
+    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter (X)"/>
   </a>
 </p>
 
----
-
-## 🛠️ Languages & Tools:
-
-<p align="left">
-
-  <a href="https://en.cppreference.com/w/c" target="_blank">
-    <img src="https://skillicons.dev/icons?i=c" alt="C" title="C"/>
-  </a>
-
-  <a href="https://isocpp.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=cpp" alt="C++" title="C++"/>
-  </a>
-
-  <a href="https://www.python.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
-    <img src="https://skillicons.dev/icons?i=html" alt="HTML5" title="HTML5"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
-    <img src="https://skillicons.dev/icons?i=css" alt="CSS3" title="CSS3"/>
-  </a>
-
-  <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS" title="Tailwind CSS"/>
-  </a>
-
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-    <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" title="JavaScript"/>
-  </a>
-
-  <a href="https://react.dev/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=react" alt="React" title="React"/>
-  </a>
-
-  <br>
-
-  <a href="https://git-scm.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=git" alt="Git" title="Git"/>
-  </a>
-
-  <a href="https://github.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" title="GitHub"/>
-  </a>
-
-  <a href="https://www.mysql.com/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL" title="MySQL"/>
-  </a>
-
-  <a href="https://www.tensorflow.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=tensorflow" alt="TensorFlow" title="TensorFlow"/>
-  </a>
-
-  <a href="https://pytorch.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" title="PyTorch"/>
-  </a>
-
-  <a href="https://scikit-learn.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=sklearn" alt="Scikit-learn" title="Scikit-learn"/>
-  </a>
-
-  <a href="https://opencv.org/" target="_blank">
-    <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV" title="OpenCV"/>
-  </a>
-
-</p>
+📧 **0aamanpathak@gmail.com**
