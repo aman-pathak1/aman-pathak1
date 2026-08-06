@@ -3,7 +3,7 @@
 -->
 
 <h1 align="center">Hi 👋, I'm Aman Pathak</h1>
-<h3 align="center">B.Tech CSE (ML Engineering) Student | Building real things, one repo at a time</h3>
+<h3 align="center">B.Tech CSE  Student , Building real things.</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/gabrieltempass/gabrieltempass/master/press-any-key.gif" width="450"/>
@@ -11,7 +11,7 @@
 
 <h2>🧑‍💻 About Me</h2>
 
-- 🎓 B.Tech Computer Science (ML Engineering track) student at Jaypee University of Engineering and Technology, Guna
+- 🎓 B.Tech Computer Science student at Jaypee University of Engineering and Technology, Guna
 - 💼 Technical Coordinator @ Bitwise Club
 - 🧪 Completed a Data Science internship @ Zidio Development Pvt. Ltd. — built **RetailPulse**, a retail analytics pipeline (RFM + K-Means segmentation, Prophet/LSTM demand forecasting)
 - 🌱 Currently learning **NLP** and exploring semantic search (SBERT/FAISS)
