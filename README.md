@@ -12,7 +12,7 @@
 <h2>🧑‍💻 About Me</h2>
 
 - 🎓 B.Tech Computer Science student at Jaypee University of Engineering and Technology, Guna
-- 💼 Technical Coordinator @ Bitwise Club
+- 💼 Deputy Secretary @ Bitwise Club
 - 🧪 Completed a Data Science internship @ Zidio Development Pvt. Ltd. — built **RetailPulse**, a retail analytics pipeline (RFM + K-Means segmentation, Prophet/LSTM demand forecasting)
 - 🌱 Currently learning **NLP** and exploring semantic search (SBERT/FAISS)
 - 💻 500+ problems solved on LeetCode (C++)
