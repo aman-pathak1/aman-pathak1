@@ -26,6 +26,8 @@ A modern, responsive e-commerce website built with HTML, CSS, and JavaScript.
 
 **Want to run this right now?** Check out the [**QUICKSTART.md**](QUICKSTART.md) guide for detailed step-by-step instructions!
 
+**Looking for the database?** See the [**DATABASE.md**](DATABASE.md) guide for complete information about data storage and how to work with product data!
+
 ### Prerequisites
 
 No special prerequisites needed! This is a static website that runs in any modern web browser.
@@ -93,11 +95,69 @@ ecommerce-website/
 ├── css/
 │   └── style.css       # Stylesheet
 ├── js/
-│   ├── products.js     # Product data
+│   ├── products.js     # Product data (acts as database)
 │   └── app.js          # Main application logic
 ├── images/             # Product images (optional)
 └── README.md           # This file
 ```
+
+## Database / Data Storage
+
+**Where is the database?**
+
+This is a **client-side only** application, so there is no traditional database server. Data is stored in two places:
+
+### 1. Product Data (`js/products.js`)
+- **Location**: `/ecommerce-website/js/products.js`
+- **Purpose**: Contains all product information (name, price, description, category, etc.)
+- **Type**: JavaScript array of objects
+- **Persistence**: Permanent (stored in code file)
+
+The `products` array acts as your product database. Each product is an object with the following structure:
+```javascript
+{
+    id: 1,
+    name: "Product Name",
+    category: "electronics|clothing|books|home",
+    price: 99.99,
+    description: "Product description",
+    icon: "fa-icon-name",
+    rating: 4.5
+}
+```
+
+**To add/edit/remove products:** Simply edit the `js/products.js` file and modify the `products` array.
+
+### 2. Shopping Cart Data (Browser LocalStorage)
+- **Location**: Browser's localStorage (key: `shophub-cart`)
+- **Purpose**: Stores user's shopping cart items
+- **Type**: JSON array stored in browser
+- **Persistence**: Temporary (cleared when browser cache is cleared)
+
+The shopping cart data is automatically saved to and loaded from the browser's localStorage, so it persists between page refreshes but is stored locally on each user's device.
+
+**To view cart data in browser:**
+1. Open browser DevTools (F12)
+2. Go to Application tab → Storage → Local Storage
+3. Look for key `shophub-cart`
+
+### Why No Real Database?
+
+This is a **static website demo** designed to run without a backend server. It's perfect for:
+- Learning frontend development
+- Quick prototyping
+- Portfolio demonstrations
+- Static hosting (GitHub Pages, Netlify, etc.)
+
+### Future Database Integration
+
+If you want to add a real database, you'll need to:
+1. Set up a backend server (Node.js, Python, PHP, etc.)
+2. Connect to a database (MongoDB, MySQL, PostgreSQL, etc.)
+3. Create API endpoints to fetch/update products
+4. Modify the JavaScript to call these APIs instead of using the hardcoded array
+
+See the "Future Enhancements" section below for more planned database features.
 
 ## Features Breakdown
 
